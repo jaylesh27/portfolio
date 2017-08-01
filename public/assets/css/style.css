@@ -1,0 +1,13 @@
+.jumbotron {
+	background-image: url("/assets/images/pexels-photo.jpg");
+	color: white;
+}
+
+.footer {
+	background-color: turquoise;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-top: 30px;
+}
