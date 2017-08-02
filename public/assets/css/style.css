@@ -1,7 +1,6 @@
-.jumbotron {
-	background-image: url("/assets/images/pexels-photo.jpg");
-	color: white;
-}
+/*body {
+	margin: 0px;
+}*/
 
 .footer {
 	background-color: turquoise;
@@ -10,4 +9,32 @@
 	bottom: 0;
 	width: 100%;
 	padding-top: 30px;
+}
+
+#hero-section {
+	/*below three lines are for the background image itself, not the container of the background image*/
+	background-image: url("/assets/images/pexels-photo.jpg");
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	/*sets height of container to 80%*/
+	height: 80vh;
+}
+
+#hero-overlay {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	/*0.5 means changing the opacity of the overlay, the other three zeroes indicate the color black*/
+	background-color: rgba(0,0,0,0.3);
+}
+
+#hero-text {
+	color: white;
+	position: absolute;
+	left: 40%;
+	top: 40%;
 }
